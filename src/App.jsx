@@ -59,8 +59,12 @@ export const App = () => {
       <Hero />
       <Filter onFilterChange={onFilterChange} />
       <Container>
-        {loading && <Loader />}
-        <PokemonsList items={items} getDetails={getDetails} />
+        {loading ? (
+          <Loader />
+        ) : (
+          <PokemonsList items={items} getDetails={getDetails} />
+        )}
+
         {isShownDetails && <PokemonInfo id={id} />}
       </Container>
       {filter === 'all' && <Button onClick={onLoadMore} text="Load More" />}
