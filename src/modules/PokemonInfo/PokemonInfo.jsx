@@ -15,6 +15,7 @@ const PokemonInfo = ({id}) => {
         if (!id) return;
       try {
         const data = await getPokemonDetails(id);
+        console.log(data)
         setItem({
           avatar: data.sprites.other.home.front_default,
           name: data.name,
@@ -38,7 +39,7 @@ const PokemonInfo = ({id}) => {
             alt={item.avatar ? item.name : 'No avatar'}
             className={css.information__image}
           />
-          <h2 className={css.information__name}>{item.name}</h2>
+        <h2 className={css.information__name}>{item.name} #{id}</h2>
           <table className={css.information__table}>
             <tbody>
               <tr>
