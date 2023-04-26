@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/pokedex/static/css/main.7acaea2f.css",
-    "main.js": "/pokedex/static/js/main.07d3183d.js",
+    "main.css": "/pokedex/static/css/main.bd06aa5f.css",
+    "main.js": "/pokedex/static/js/main.8c0e05db.js",
+    "static/media/hero.png": "/pokedex/static/media/hero.d2ba452bc9e7a518e0be.png",
+    "static/media/OpenSans-Regular.ttf": "/pokedex/static/media/OpenSans-Regular.37c522d97be8b2c0ab47.ttf",
+    "static/media/pokeball.png": "/pokedex/static/media/pokeball.7d366cac711e74b98cd7.png",
+    "static/media/defaultAvatar.png": "/pokedex/static/media/defaultAvatar.e823f0269e5e58e9ff76.png",
+    "static/media/Pokemon-Hollow.ttf": "/pokedex/static/media/Pokemon-Hollow.47f77ce9939c5330492b.ttf",
     "index.html": "/pokedex/index.html",
-    "main.7acaea2f.css.map": "/pokedex/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/pokedex/static/js/main.07d3183d.js.map"
+    "main.bd06aa5f.css.map": "/pokedex/static/css/main.bd06aa5f.css.map",
+    "main.8c0e05db.js.map": "/pokedex/static/js/main.8c0e05db.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.bd06aa5f.css",
+    "static/js/main.8c0e05db.js"
   ]
 }
