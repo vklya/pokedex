@@ -46,20 +46,20 @@ const PokemonItem = ({ item, index, getDetails }) => {
                 <h2 className={css.pokemons__name}>{name}</h2>
                 <ul className={css.pokemons__types}>
                     {types.map(item => {
-                        for (let type in typeColor) {
-                            if (item.type.name === type) {
-                                return (
-                                    <li
-                                        key={item.slot}
-                                        style={{ backgroundColor: typeColor[type] }}
-                                        className={css.pokemons__type}
-                                    >
-                                        {item.type.name}
-                                    </li>
-                                );
-                            }
+                            return (
+                                <li
+                                    key={item.slot}
+                                    style={{
+                                    backgroundColor: typeColor[item.type.name],
+                                    }}
+                                    className={css.pokemons__type}
+                                >
+                                    {item.type.name}
+                                </li>
+                            );
+                            })
                         }
-                    })}
+                    
                 </ul>
                 </div>
 
