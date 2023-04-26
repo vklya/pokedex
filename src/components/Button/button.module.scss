@@ -1,0 +1,21 @@
+.button {
+    width: 50%;
+    margin: 30px auto;
+    padding: 14px;
+    color: #fff;
+    background-color: #2C70B7;
+    border-radius: 8px;
+    font-size: 12px;
+    transition: background-color 150ms linear, color 150ms linear;
+
+    &:hover,
+    &:focus {
+        cursor: pointer;
+        background-color: #FFD817;
+        color: #2C70B7;
+    }
+
+    @media screen and (min-width: 480px) {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,23 @@
+.filter {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    
+}
+
+.filter__label {
+    transition: color 150ms linear;
+
+    .filter:hover &,
+    .filter:focus &{
+        color: #2C70B7;
+    }
+}
+
+.filter__select{
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
