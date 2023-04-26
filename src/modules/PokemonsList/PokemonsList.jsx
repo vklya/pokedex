@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import css from './list.module.scss';
 
-import PokemonItem from "components/PokemonItem";
+import PokemonItem from "modules/PokemonItem";
 
 const PokemonsList = ({ items, getDetails }) => {
 
