@@ -5,8 +5,6 @@ import css from './info.module.scss';
 
 import defaultAvatar from '../../images/defaultAvatar.png';
 
-import Loader from "components/Loader";
-
 import { getPokemonDetails } from 'services/pokeapi';
 
 const PokemonInfo = ({id}) => {
