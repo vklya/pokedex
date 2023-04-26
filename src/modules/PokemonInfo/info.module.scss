@@ -1,5 +1,5 @@
 .information {
-    position: absolute;
+    position: fixed;
     top: 180px;
     right: 20px;
     max-width: 40%;
@@ -8,7 +8,6 @@
     text-align: center;
 
     @media screen and (min-width: 480px) {
-        position: fixed;
         top: 128px;
     }
 
