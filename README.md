@@ -6,4 +6,7 @@ Open a World of Pokemons! Just click on the link in the section "About" of this 
 To get more detailed info tap on a card of pokemon. 
 
 You can also filter pokemons by type using special form in the top of list.
-Enjoy this app and pray for Ukraine!
+
+It is comfortably to use this app on all of your devices (mobile, tablet, desktop).
+
+Enjoy it and pray for Ukraine!
