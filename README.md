@@ -4,7 +4,7 @@ Open a World of Pokemons!
 
 ## Tech stack
 
-This app was created using such technologies as HTML, CSS (SASS), React (Components & Hooks), RestApi.
+This app was created using such technologies as HTML, CSS (SASS), JavaScript, React (Components & Hooks), RestAPI.
 
 ## How to run it
 
