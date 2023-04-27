@@ -10,6 +10,7 @@ import Container from 'components/Container';
 import PokemonInfo from 'modules/PokemonInfo';
 import Filter from 'components/Filter';
 import Loader from 'components/Loader';
+import HiddenHeading from 'components/HiddenHeading';
 
 export const App = () => {
   const [items, setItems] = useState([]);
@@ -56,6 +57,7 @@ export const App = () => {
 
   return (
     <Section>
+      <HiddenHeading>Pokedex</HiddenHeading>
       <Hero />
       <Filter onFilterChange={onFilterChange} />
       <Container>
